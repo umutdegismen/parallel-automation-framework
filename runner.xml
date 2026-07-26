@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--POM.xml has the control of thread count. If you want to control it through runner.xml, use this parameter in suite ( data-provider-thread-count="2" )-->
+<suite name="Cucumber Scenario Suite" parallel="tests">
+	
+<!-- Change the runner class based on your needs-->	
+
+	<test name="UI Tests">
+		<classes>
+			<class name="com.parallel.runners.UiTestRunner"/>
+		</classes>
+	</test>
+
+
+<!--
+	<test name="UI Failed Tests">
+		<classes>
+			<class name="com.parallel.runners.UiFailedRunner" />
+		</classes>
+	</test>
+-->
+<!--
+	<test name="API Tests">
+		<classes>
+			<class name="com.parallel.runners.ApiTestRunner" />
+		</classes>
+	</test>
+-->
+
+<!--
+	<test name="API Failed Tests">
+		<classes>
+			<class name="com.parallel.runners.ApiFailedRunner" />
+		</classes>
+	</test>
+-->
+</suite>

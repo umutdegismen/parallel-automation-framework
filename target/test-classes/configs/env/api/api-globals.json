@@ -1,0 +1,16 @@
+{
+  "Student": 
+	  {
+	    "City": "East Amherst",
+	    "Email": "umut@email.com",
+	    "Lastname": "Degismen",
+	    "Name": "Umut",
+	    "Number": "481516234235",
+	    "State": "NY"
+	  },
+  "School": 
+	  {
+	    "Name": "XYZ High School",
+	    "District": "Buffalo"
+	  }  
+}
