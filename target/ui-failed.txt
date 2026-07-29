@@ -1,2 +1,0 @@
-file:src/test/resources/features/ui/ebay_mainPageFieldValidations2.feature:7:22:37
-file:src/test/resources/features/ui/ebay_mainPageFieldValidations.feature:7
