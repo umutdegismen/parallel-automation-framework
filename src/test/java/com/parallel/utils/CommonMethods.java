@@ -396,6 +396,16 @@ public class CommonMethods extends ExcelUtils {
 	public static void scrolltoElementOnBottom(WebElement element) {
 		getJsObject().executeScript("arguments[0].scrollIntoView(false)", element);
 	}
+	
+	/**
+	 * This method scrolls the page until a specific element is in view in center of
+	 * the page
+	 * 
+	 * @param element
+	 */
+	public static void scrolltoElementInCenter(WebElement element) {
+		getJsObject().executeScript("arguments[0].scrollIntoView({block: 'center'})", element);
+	}
 
 	/**
 	 * This method scrolls the page UP using the pixels parameter.
